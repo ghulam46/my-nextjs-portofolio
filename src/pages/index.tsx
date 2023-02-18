@@ -40,11 +40,11 @@ export default function Home() {
 
           <div className='text-center p-10'>
             <h2 className='text-3xl text-blue-500 font-extrabold md:text-4xl lg:text-5xl'>Ghulam Ammar Yanuar</h2>
-            <h3 className='text-2xl py-4 text-gray-600 md:text-3xl'>Frontend Developer</h3>
-            <p className='font-medium py-5 leading-8 text-gray-500 max-w-lg mx-auto md:text-xl'>Hello There, i'm Ghulam, 22 years old from indonesian, i'm college in Informatics Engineering and i'm interested about Web Developer specialist as a Frontend Developer.</p>
+            <h3 className='text-xl py-4 text-gray-600 md:text-3xl dark:text-white'>Frontend Developer</h3>
+            <p className='font-medium py-5 leading-8 text-gray-500 max-w-lg mx-auto md:text-xl dark:text-white'>Hello There, i'm Ghulam, 22 years old from indonesian, i'm college in Informatics Engineering and i'm interested about Web Developer specialist as a Frontend Developer.</p>
           </div>
 
-          <div className='text-5xl flex justify-center gap-10 text-gray-600 -mt-5'>
+          <div className='text-5xl flex justify-center gap-10 text-gray-600 -mt-5 dark:text-white'>
             <AiFillGithub />
             <AiFillInstagram />
             <AiFillLinkedin />
