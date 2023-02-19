@@ -45,10 +45,18 @@ export default function Home() {
           </div>
 
           <div className='text-5xl flex justify-center gap-10 text-gray-600 -mt-5 dark:text-white'>
-            <AiFillGithub />
-            <AiFillInstagram />
-            <AiFillLinkedin />
-            <AiFillBehanceSquare />
+            <a href="https://github.com/ghulam46">
+              <AiFillGithub  />
+            </a>
+            <a href="https://www.instagram.com/ghulam_amr/">
+              <AiFillInstagram />
+            </a>
+            <a href="https://www.linkedin.com/in/ghulam-ammar-yanuar-b5b583170/">
+              <AiFillLinkedin />
+            </a>
+            <a href="https://www.behance.net/ghulam46">
+              <AiFillBehanceSquare />
+            </a>
           </div>
 
           <div className="relative mx-auto mb-12 bg-gradient-to-b from-blue-500 rounded-full w-80 h-80 mt-20 overflow-hidden md:w-96 md:h-96">
